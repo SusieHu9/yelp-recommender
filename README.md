@@ -46,7 +46,7 @@ Python 3.6, JDK 1.8, and Spark 3.1.2
 To run the Python code, follow these steps:
 1. Make sure your current programming environment meets the requirements
 2. Clone the repository to your local machine
-3. Download the dataset used by the recommender from [Google Drive](https://drive.google.com/drive/folders/1AbJWyM3_bcbdsZFlO0ppTgVT3p9YQvMs?usp=sharing). Save these files in the repo's `data` folder.
+3. Download the dataset used by the recommender from [Google Drive](https://drive.google.com/drive/folders/1AbJWyM3_bcbdsZFlO0ppTgVT3p9YQvMs?usp=sharing). Create a new folder called `data` in the repo and save these files in this folder.
 4. Use Spark to execute the file (adjusting the PySpark location as necessary):
     ```
     /spark/spark-3.1.2-bin-hadoop3.2/bin/spark-submit --executor-memory 4G --driver-memory 4G recommender.py ./data ./data/yelp_val.csv ./output.csv
